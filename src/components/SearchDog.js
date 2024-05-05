@@ -40,7 +40,7 @@ const SearchDogForm = () => {
 
       setData({ name: data.name, age: data.age, breed: data.breed });
 
-      /*
+      
       const result = {
           status: res.status + "-" + res.statusText,
           headers: {
@@ -49,8 +49,8 @@ const SearchDogForm = () => {
           },
           data: data,
       };
-*/
       alert(fortmatResponse(result));
+      
       //alert(res.statusText);
       //alert(res.status);
 
