@@ -18,8 +18,8 @@ const App = () => {
 
     <Router>
       <Navbar />
+
       <Routes>
-        
         <Route path="/DataGrid" element={<MDataGrid />} />
         <Route path="/InsertDog" element={<InsertDogForm />} />
         <Route path="/ListDogs" element={<ListDogs />} />

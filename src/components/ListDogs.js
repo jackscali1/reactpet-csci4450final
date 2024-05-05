@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { DataGrid } from '@mui/x-data-grid'
 import { Typography, TextField, Box, DialogTitle, DialogContent, Grid, Dialog } from '@mui/material'
 
-import { FormControl, FormLabel, Button, InputLabel, DialogActions, Select, DialogContentText } from '@mui/material';
+import { FormControl, FormLabel, Button, DialogActions, DialogContentText } from '@mui/material';
 
 const columns = [
   { field: '_id', headerName: 'ID', width: 300 },
