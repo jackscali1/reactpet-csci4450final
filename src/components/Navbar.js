@@ -18,7 +18,7 @@ const menuData=[
   return (
 
     <>
-    <Typography variant="h5"> Menu </Typography>
+    <Typography variant="h5"> Spr. 24 4450 IP Menu </Typography>
 
 <Grid container spacing={3} marginBottom={10}>
   {menuData.map((entry, index) => (
