@@ -50,7 +50,7 @@ const SearchDogForm = () => {
           data: data,
       };
 */
-      //alert(fortmatResponse(result));
+      alert(fortmatResponse(result));
       //alert(res.statusText);
       //alert(res.status);
 
